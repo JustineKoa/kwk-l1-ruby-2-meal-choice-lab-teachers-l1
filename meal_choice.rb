@@ -3,9 +3,6 @@ def snacks(food="Cheetos")
   "Any time, is the right time for #{food}!"
 end
 
-puts breakfast("Waffles")
-puts lunch("Salad")
-puts dinner("Pasta")
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them with a default to your favorite.
 def breakfast(food="Frosted Flakes")
   "Morning is the best time for #{food}!"
@@ -25,7 +22,9 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-
+puts breakfast("Waffles")
+puts lunch("Salad")
+puts dinner("Pasta")
 
 
 # Call your methods without any arguments here
